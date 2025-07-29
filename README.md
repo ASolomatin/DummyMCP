@@ -7,11 +7,11 @@
 [license-icon]:         https://img.shields.io/github/license/ASolomatin/DummyMCP
 [license-url]:          https://github.com/ASolomatin/DummyMCP/blob/master/LICENSE
 
-[nuget-icon]:           https://img.shields.io/nuget/v/DummyMCP.svg
-[nuget-url]:            https://www.nuget.org/packages/DummyMCP
+[nuget-icon]:           https://img.shields.io/nuget/v/DummyMCP.Tools.svg
+[nuget-url]:            https://www.nuget.org/packages/DummyMCP.Tools
 
-[nuget-downloads-icon]: https://img.shields.io/nuget/dt/DummyMCP.svg
-[nuget-downloads-url]:  https://www.nuget.org/stats/packages/DummyMCP?groupby=Version
+[nuget-downloads-icon]: https://img.shields.io/nuget/dt/DummyMCP.Tools.svg
+[nuget-downloads-url]:  https://www.nuget.org/stats/packages/DummyMCP.Tools?groupby=Version
 
 # Dummy MCP Server
 
