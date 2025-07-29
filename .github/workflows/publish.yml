@@ -28,7 +28,7 @@ jobs:
       run: |
         ARTIFACT_NUPKG_PATHNAME=$(ls DummyMCP/bin/Release/*.nupkg | head -n 1)
         echo "ARTIFACT_NUPKG_PATHNAME=${ARTIFACT_NUPKG_PATHNAME}" >> $GITHUB_ENV
-        cd DummyMCPbin/Release/
+        cd DummyMCP/bin/Release/
         ls */*.dll | xargs -I _FILE_ bash -c "cp _FILE_ \$(echo _FILE_ | sed 's/\//_/g')"
         ls */*.pdb | xargs -I _FILE_ bash -c "cp _FILE_ \$(echo _FILE_ | sed 's/\//_/g')"
         ls */*.xml | xargs -I _FILE_ bash -c "cp _FILE_ \$(echo _FILE_ | sed 's/\//_/g')"
