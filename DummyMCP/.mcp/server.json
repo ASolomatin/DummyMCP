@@ -6,7 +6,7 @@
     {
       "registry_name": "nuget",
       "name": "DummyMCP.Tools",
-      "version": "0.1.0-beta",
+      "version": "0.1.1-beta",
       "package_arguments": [],
       "environment_variables": ["DUMMY_OWM__API_KEY"]
     }
@@ -16,6 +16,6 @@
     "source": "github"
   },
   "version_detail": {
-    "version": "0.1.0-beta"
+    "version": "0.1.1-beta"
   }
 }
