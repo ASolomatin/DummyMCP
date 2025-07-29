@@ -1,0 +1,14 @@
+{
+    "inputs": [],
+    "servers": {
+        "DummyMcpServer": {
+            "type": "stdio",
+            "command": "dotnet",
+            "env": {
+                "DOTNET_ENVIRONMENT": "Development",
+                "DUMMY_OWM__API_KEY": ""
+            },
+            "args": [ "run", "--project", "${workspaceFolder}/DummyMCP/DummyMCP.csproj" ]
+        }
+    }
+}

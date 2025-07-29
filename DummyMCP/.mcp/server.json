@@ -1,0 +1,21 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/draft/2025-07-09/server.json",
+  "description": "Dummy MCP Server just for testing purposes",
+  "name": "io.github.ASolomatin/DummyMCP",
+  "packages": [
+    {
+      "registry_name": "nuget",
+      "name": "DummyMCP.Tools",
+      "version": "0.1.0-beta",
+      "package_arguments": [],
+      "environment_variables": ["DUMMY_OWM__API_KEY"]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/ASolomatin/DummyMCP",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "0.1.0-beta"
+  }
+}
